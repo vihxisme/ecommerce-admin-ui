@@ -1,0 +1,17 @@
+services:
+  adminecommerce:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: adminecommerce
+    image: admin-ecommerce:1.0
+    ports:
+      - "4444:4444"
+    networks:
+      - microservices-network
+    volumes:
+      - ./logs/nginx:/var/log/nginx
+
+networks:
+  microservices-network:
+    external: true
