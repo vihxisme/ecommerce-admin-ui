@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 14",
+      "price": 999,
+      "stock": 50,
+      "category": "Electronics"
+    },
+    {
+      "id": "3",
+      "name": "MacBook Pro",
+      "price": 1999,
+      "stock": 20,
+      "category": "Laptops"
+    },
+    {
+      "id": "ffaa",
+      "name": "2",
+      "price": 100000,
+      "stock": 30,
+      "category": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer": "John Doe",
+      "total": 150,
+      "status": "Delivered",
+      "date": "2023-10-01"
+    },
+    {
+      "id": "2",
+      "customer": "Jane Smith",
+      "total": 300,
+      "status": "Pending",
+      "date": "2023-10-02"
+    },
+    {
+      "id": "3",
+      "customer": "Mike Johnson",
+      "total": 200,
+      "status": "Shipped",
+      "date": "2023-10-03"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "orders": 5
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "orders": 3
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "email": "mike@example.com",
+      "orders": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Laptops"
+    },
+    {
+      "id": "3",
+      "name": "Clothing"
+    }
+  ],
+  "analytics": {
+    "revenue": [
+      {
+        "month": "Jan",
+        "value": 1200
+      },
+      {
+        "month": "Feb",
+        "value": 1900
+      },
+      {
+        "month": "Mar",
+        "value": 3000
+      },
+      {
+        "month": "Apr",
+        "value": 5000
+      },
+      {
+        "month": "May",
+        "value": 4000
+      }
+    ],
+    "orders": [
+      {
+        "month": "Jan",
+        "value": 50
+      },
+      {
+        "month": "Feb",
+        "value": 70
+      },
+      {
+        "month": "Mar",
+        "value": 90
+      },
+      {
+        "month": "Apr",
+        "value": 120
+      },
+      {
+        "month": "May",
+        "value": 100
+      }
+    ]
+  }
+}
